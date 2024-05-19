@@ -30,6 +30,7 @@ def place_ship(board, ship_size):
                     board[x+i][y] = 'S'
                 break
 
+
 def check_hit(board, x, y):
     size = len(board)
     if x < 0 or x >= size or y < 0 or y >= size:

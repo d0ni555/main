@@ -4,4 +4,4 @@ import random
 random_numbers = [random.randint(1, 100) for _ in range(1000)]
 
 # Выводим сумму чисел в списке
-print(f"Сумма чисел: {sum(random_numbers)}")
+print(f"Сумма чисел: {sum(random_numbers)}").
